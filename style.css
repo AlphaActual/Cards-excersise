@@ -59,11 +59,17 @@
 }
 
 .content{
-    box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.75);
     width: 200px;
-    height: 100px;
+    height: 200px;
     background-color: white; 
     transform: translateY(-50%);
+
+}
+.content-long{
+    height: 200px;
 }
 
 .cover, .content{
@@ -91,7 +97,9 @@
     -10px 0 80px #f0f,
     10px 0 80px #0ff;
 }
-
+.centering-div:hover .content{
+    height: 100px;
+}
 .centering-div:hover .content-long{
     height: 400px;
 }
