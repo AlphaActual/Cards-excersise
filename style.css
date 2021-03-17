@@ -98,8 +98,23 @@
     10px 0 80px #0ff;
 }
 .centering-div:hover .content{
-    height: 100px;
+    height: 150px;
 }
 .centering-div:hover .content-long{
     height: 400px;
+}
+.btn{
+    border: 1px dashed black;
+    padding: .5rem;
+    display: inline-block;
+    margin-top: .5rem;
+    text-decoration: none;
+    color: var(--secondary);
+    min-width: 25%;
+    text-align: center;
+
+}
+.btn:hover{
+    background-color: var(--primary);
+    color: white;
 }
